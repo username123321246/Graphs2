@@ -49,8 +49,24 @@ plt.plot([], [], label = "Laptop", color = "green")
 plt.plot([], [], label = "Watch", color = "red")
 plt.plot([], [], label = "Keyboard", color = "purple")
 plt.legend()
-
 plt.show()
+
+#Subplot
+
+company = [2, 3, 6, 1, 5, 4]
+year = [100, 150, 200, 250, 300, 350]
+
+plt.subplot(221)
+plt.bar(year, company)
+
+plt.subplot(224)
+plt.plot(company, year)
+plt.show()
+
+
+
+
+
 
 
 
